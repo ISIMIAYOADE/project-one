@@ -1,3 +1,12 @@
+html,
+body{
+  padding: 0;
+  margin: 0;
+  font-family:monospace;
+}
+*{
+  box-sizing: border-box;
+}
 body{
  background-color:hsl(30,38%,92%);
  width:100vw;
@@ -5,9 +14,28 @@ body{
 }
 main{
   display:flex;
-  width: 45rem;
-  height: 30rem;
-  background-color: black;
-  margin: 12rem 3rem 6rem 9rem;
-padding:5rem ;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 50rem;
+  margin:auto;
+  background-color: hsl(26.25deg 42.11% 92.55%);
+  margin:12rem 3rem 6rem 9rem;
+  padding:5rem;
+}
+.section-one{
+  width:20rem;
+  height:30rem;
+}
+.section-one img{
+width:100%;
+height:100%;
+border-radius: 5px 0 0 5px;
+}
+.section-two{
+  width:20rem;
+  height:30rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0 5px 5px 0;
 }
